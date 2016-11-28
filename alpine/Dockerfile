@@ -1,4 +1,5 @@
 FROM php:7.1-rc-alpine
+MAINTAINER MsWebmaster
 
 ENV COMPOSER_CACHE_DIR=/cache
 
