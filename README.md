@@ -1,2 +1,2 @@
 # docker-composer
-A composer php7 image from alpine
+A composer image from alpine php7
