@@ -3,8 +3,6 @@ MAINTAINER MsWebmaster
 
 ENV COMPOSER_CACHE_DIR=/cache
 
-COPY config/php.ini /usr/local/etc/php/
-
 RUN apk add --update openssh git curl && \
     curl -k -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
     apk del curl && \
